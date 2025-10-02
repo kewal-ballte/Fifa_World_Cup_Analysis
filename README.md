@@ -1,5 +1,5 @@
 ## 📷 ER Diagram
-![world_cup ER Diagram]https://github.com/kewal-ballte/Fifa_World_Cup_Analysis/blob/main/world_cup_er.png.png
+![world_cup ER Diagram](https://github.com/kewal-ballte/Fifa_World_Cup_Analysis/blob/main/world_cup_er.png.png)
 
 ------
 ## Queries and Visualizations
