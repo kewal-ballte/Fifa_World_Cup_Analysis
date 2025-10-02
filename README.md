@@ -14,77 +14,77 @@
 ## 🧱 Database Schema Overview
 ### Tables:
 
-2022_world_cup_matches
+**2022_world_cup_matches**
 
-match_id (PK)
+- match_id (PK)
 
-Date
+- Date
 
-Home Team
+- Home Team
 
-Away Team
+- Away Team
 
-Home Goals
+- Home Goals
 
-Away Goals
+- Away Goals
 
-Stage
+- Stage
 
-2022_world_cup_squads
+**2022_world_cup_squads**
 
-player_id (PK)
+- player_id (PK)
 
-Player
+- Player
 
-Team (FK)
+- Team (FK)
 
-Age
+- Age
 
-Goals
+- Goals
 
-Caps
+- Caps
 
-2022_world_cup_groups
+**2022_world_cup_groups**
 
-group_id (PK)
+- group_id (PK)
 
-Team
+- Team
 
-Group
+- Group
 
-FIFA Ranking
+- FIFA Ranking
 
-world_cups
+**world_cups**
 
-year_id (PK)
+- year_id (PK)
 
-Year
+- Year
 
-Host
+- Host
 
-Winner
+- Winner
 
-Runner-up
+- Runner-up
 
-Teams
+- Teams
 
-world_cup_matches (historical data)
+**world_cup_matches (historical data)**
 
-match_id (PK)
+- match_id (PK)
 
-Year (FK)
+- Year (FK)
 
-Date
+- Date
 
-Home Team
+- Home Team
 
-Away Team
+- Away Team
 
-Home Goals
+- Home Goals
 
-Away Goals
+- Away Goals
 
-Stage
+- Stage
 
 
 
@@ -95,43 +95,41 @@ Stage
 
 Some of the insights generated from this project:
 
-1.Top 5 Highest FIFA Ranked Teams (2022)
-→ Finds the teams with the best FIFA rankings before the tournament.
+1. Top 5 Highest FIFA Ranked Teams (2022)
+-  Finds the teams with the best FIFA rankings before the tournament.
 
-2.Teams with the Oldest Average Squad Age
-→ Highlights experienced squads based on average player age.
+2. Teams with the Oldest Average Squad Age
+-  Highlights experienced squads based on average player age.
 
-3.Top 5 Goal Scorers from Squads
-→ Identifies the most effective strikers of the tournament.
+3. Top 5 Goal Scorers from Squads
+-  Identifies the most effective strikers of the tournament.
 
-4.Teams with Most Players Having 50+ Caps
-→ Evaluates experience within each squad.
+4. Teams with Most Players Having 50+ Caps
+-  Evaluates experience within each squad.
 
-5.Players Who Outperformed Their Team’s Average Goals
-→ Shows standout players compared to their team averages.
+5. Players Who Outperformed Their Team’s Average Goals
+-  Shows standout players compared to their team averages.
 
-6.Weekday with the Most Matches
-→ Analyzes which day hosted the highest number of games.
+6. Weekday with the Most Matches
+-  Analyzes which day hosted the highest number of games.
 
-7.World Cup Winners Who Also Scored the Most Goals in a Match (Same Year)
-→ Historical insight into attacking dominance by champions.
+7. World Cup Winners Who Also Scored the Most Goals in a Match (Same Year)
+-  Historical insight into attacking dominance by champions.
 
-8.Top Scorers from Top 10 FIFA Ranked Teams
-→ Merges FIFA rankings with individual performance.
+8. Top Scorers from Top 10 FIFA Ranked Teams
+-  Merges FIFA rankings with individual performance.
 
-9.Team Performance Summary
-→ Aggregates squad age, goals, and FIFA ranking for each team.
+9. Team Performance Summary
+-  Aggregates squad age, goals, and FIFA ranking for each team.
 
-10.Years with Above-Average Total Matches
-→ Historical comparison of World Cup editions.
+10. Years with Above-Average Total Matches
+-  Historical comparison of World Cup editions.
 
-11.Match Results with Group Information
-→ Combines match results with group stage context.
+11. Match Results with Group Information
+-  Combines match results with group stage context.
 
-12.Matches Played per Team in 2022
-→ Counts appearances for each team across the tournament.
-
-
+12. Matches Played per Team in 2022
+-  Counts appearances for each team across the tournament.
 
 
 
@@ -144,7 +142,6 @@ Some of the insights generated from this project:
 - Run the analytical queries included in the script to explore insights about teams, players, and matches.
 
 - Use the ER diagram (world_cup_schema.png / .mwb) as a reference for understanding table relationships.
-
 
 
 
@@ -165,7 +162,6 @@ Some of the insights generated from this project:
 - Compare players vs. team averages to spot standout performers.
 
 - Explore historical World Cups to find years with above-average matches or dominant winners.
-
 
 
 
