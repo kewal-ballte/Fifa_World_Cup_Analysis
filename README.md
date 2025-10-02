@@ -1,3 +1,9 @@
+# 🏆⚽ Fifa_World_Cup
+![image](https://github.com/kewal-ballte/Fifa_World_Cup_Analysis/blob/main/FIFA_World_Cup.svg)
+
+# 🏆⚽ World Cup 2022 Database Management System
+
+This project represents a complete relational database for analyzing the FIFA World Cup 2022. It captures detailed data about teams, players, squads, matches, and historical World Cups, providing insightful queries for performance analysis and tournament trends.
 
 ## 📁 Project Structure
 
